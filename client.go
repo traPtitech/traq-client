@@ -6,7 +6,10 @@ import (
 	"golang.org/x/oauth2"
 )
 
-const v1Prefix = "/api/1.0"
+const (
+	DefaultBaseURL = "https://q.trap.jp"
+	v1Prefix       = "/api/1.0"
+)
 
 type Client struct {
 	baseURL string
