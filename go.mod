@@ -1,3 +1,4 @@
+// Deprecated: Use https://github.com/sapphi-red/go-traq instead.
 module github.com/traPtitech/traq-client
 
 require (
